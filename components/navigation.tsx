@@ -64,7 +64,7 @@ export function NavigationMenuDemo() {
           <NavigationMenuItem>
             <Link href="/" className="flex items-center">
               <img
-                src={"favicon.ico"}
+                src="/favicon.ico"
                 alt="Logo"
                 className="mr-1 h-12 w-auto object-contain sm:mr-2 sm:h-16 lg:mr-4 lg:h-20"
               />
@@ -92,15 +92,15 @@ export function NavigationMenuDemo() {
             <NavigationMenuItem>
               <NavigationMenuLink
                 className={navigationMenuTriggerStyle()}
-                render={<Link href="/resources">Resources</Link>}
+                render={<Link href="/contacts">Contact Us</Link>}
               />
             </NavigationMenuItem>
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuLink
                 className={navigationMenuTriggerStyle()}
                 render={<Link href="/login">Login</Link>}
               />
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
           </div>
         </NavigationMenuList>
       </NavigationMenu>
