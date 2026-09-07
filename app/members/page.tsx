@@ -17,7 +17,8 @@ export const metadata = {
 export default function Page() {
   return (
     <div className="relative min-h-screen overflow-x-clip">
-      <div className="h-full w-full">
+      <div className="pointer-events-none fixed inset-x-0 bottom-0 -z-10 h-full w-full">
+        <div className="h-full w-full">
           <GradientWaves
             horizonColor="#1E88E5"
             waveColor="#FF9FFC"
@@ -40,6 +41,8 @@ export default function Page() {
             grain
             grainIntensity={0.05}
           /></div>
+
+      </div>
       <div className="pointer-events-none absolute -top-20 -right-20 h-72 w-72 rounded-full bg-cyan-400/25 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-20 -left-20 h-72 w-72 rounded-full bg-emerald-400/15 blur-3xl" />
 
