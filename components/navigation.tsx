@@ -96,7 +96,10 @@ export function NavigationMenuDemo() {
               />
             </NavigationMenuItem>
             <NavigationMenuItem>
-              
+              <NavigationMenuLink
+                className={navigationMenuTriggerStyle()}
+                render={<Link href="/linktree" className="my-target">Linktree</Link>}
+              />
             </NavigationMenuItem>
           </div>
         </NavigationMenuList>
