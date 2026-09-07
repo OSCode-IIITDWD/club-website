@@ -79,7 +79,7 @@ export default function Page() {
               ["How do I find a first issue?", "Visit the Projects page, choose a repository, and look for a small issue or a good-first-issue label."],
               ["Can I work on an idea with the club?", "Yes. Bring it to a meetup or reach out through one of our community channels and we can help you shape it."],
             ].map(([question, answer]) => (
-              <details key={question} className="group rounded-2xl border border-white/15 bg-white/[0.04] px-5 py-4 backdrop-blur-sm">
+              <details key={question} className="group rounded-2xl border border-white/15 bg-white/4 px-5 py-4 backdrop-blur-sm">
                 <summary className="my-target flex cursor-pointer list-none items-center justify-between gap-4 font-medium text-white marker:hidden">
                   {question}
                   <span className="text-xl font-light text-cyan-300 transition-transform group-open:rotate-45">+</span>
