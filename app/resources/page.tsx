@@ -137,7 +137,7 @@ export default function Page() {
                     <span key={tag} className="rounded-full border border-white/15 px-3 py-1 text-xs text-slate-300">{tag}</span>
                   ))}
                 </div>
-                <a href="https://github.com/os-code-iiitdwd" target="_blank" rel="noreferrer" className="my-target mt-8 inline-flex items-center gap-2 text-sm font-semibold text-white transition-colors hover:text-cyan-300">
+                <a href="https://github.com/OSCode-IIITDWD/hyve-mobile" target="_blank" rel="noreferrer" className="my-target mt-8 inline-flex items-center gap-2 text-sm font-semibold text-white transition-colors hover:text-cyan-300">
                   See our GitHub work <ArrowUpRight className="size-4" />
                 </a>
               </div>
@@ -160,7 +160,7 @@ export default function Page() {
                     <span key={tag} className="rounded-full border border-white/15 px-3 py-1 text-xs text-slate-300">{tag}</span>
                   ))}
                 </div>
-                <a href="https://github.com/os-code-iiitdwd" target="_blank" rel="noreferrer" className="my-target mt-8 inline-flex items-center gap-2 text-sm font-semibold text-white transition-colors hover:text-emerald-300">
+                <a href="https://github.com/OSCode-IIITDWD/club-website" target="_blank" rel="noreferrer" className="my-target mt-8 inline-flex items-center gap-2 text-sm font-semibold text-white transition-colors hover:text-emerald-300">
                   See our GitHub work <ArrowUpRight className="size-4" />
                 </a>
               </div>
